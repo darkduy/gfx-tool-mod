@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "gfxtool",
+  "version": "1.0.0",
+  "name": "GFX Tool",
+  "description": "GFX Tool - performance presets, benchmark and overlay for Minecraft Java (Fabric)",
+  "authors": [
+    "darkduy"
+  ],
+  "contact": {
+    "homepage": "https://github.com/darkduy/gfx-tool-update",
+    "sources": "https://github.com/darkduy/gfx-tool-update"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.darkduy.gfxtool.GfxToolMod"
+    ],
+    "client": [
+      "com.darkduy.gfxtool.client.GfxToolClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*"
+  }
+}
