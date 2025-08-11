@@ -1,6 +1,6 @@
 plugins {
+    id("fabric-loom") version "1.2.9" // hoặc version bạn muốn
     java
-    id("fabric-loom") version "1.2.9"
 }
 
 java {
@@ -11,7 +11,7 @@ java {
 
 repositories {
     mavenCentral()
-    maven { url = uri("https://maven.fabricmc.net/") }
+    maven("https://maven.fabricmc.net/")
 }
 
 dependencies {
